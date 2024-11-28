@@ -83,9 +83,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.vacinebemapp"
+    namespace 'com.maurosergio.vacinebemapp'
     defaultConfig {
-        applicationId 'com.maurosergio98.vacinebemapp'
+        applicationId 'com.maurosergio.vacinebemapp'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-package com.maurosergio98.vacinebemapp
+package com.maurosergio.vacinebemapp
 
 import android.app.Application
 import android.content.res.Configuration

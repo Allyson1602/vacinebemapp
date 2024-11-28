@@ -1,7 +1,6 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { AppRegistry } from "react-native";
 
 import HomeScreen from "./screens/HomeScreen";
 import QuestionarioScreen from "./screens/QuestionarioScreen";
@@ -10,11 +9,9 @@ import CartaoVacinaScreen from "./screens/CartaovacinaScreen";
 import DadosdasVacinasScreen from "./screens/DadosdasVacinasScreen";
 import PerfilScreen from "./screens/PerfilScreen";
 import RegistroUsuarioScreen from "./screens/RegistroUsuarioScreen";
-import RecomendacoesVacinas from "./screens/RecomendacoesVacinas"
+import RecomendacoesVacinas from "./screens/RecomendacoesVacinas";
 
 const Stack = createStackNavigator();
-// Registro do componente App
-AppRegistry.registerComponent("blank", () => App);
 
 // Registro do componente App
 const App = () => {
@@ -37,7 +34,6 @@ const App = () => {
           component={RecomendacoesVacinas}
           options={{ title: "Recomendacoes de Vacinas" }}
         />
-
 
         <Stack.Screen
           name="Questionario"
@@ -69,7 +65,5 @@ const App = () => {
     </NavigationContainer>
   );
 };
-
-
 
 export default App;
